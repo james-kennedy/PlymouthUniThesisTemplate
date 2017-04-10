@@ -6,32 +6,41 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % --- this is the line that puts the title page in from the pdf file
-%TODO front page
+\input{prelim/titlepage}
 \cleartooddpage
 
 \frontmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter*{Abstract}	
+\phantomsection
 \addcontentsline{toc}{chapter}{Abstract}
+\chapter*{Abstract}
 \input{prelim/abstract}
 \cleartooddpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\tableofcontents \addcontentsline{toc}{chapter}{Table of Contents}
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
 \cleartooddpage
-\listoffigures	 \addcontentsline{toc}{chapter}{List of Figures}
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures	
 \cleartooddpage
-\listoftables \addcontentsline{toc}{chapter}{List of Tables}
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
 \cleartooddpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter*{Acknowledgements}	
+\phantomsection
 \addcontentsline{toc}{chapter}{Acknowledgements}
+\chapter*{Acknowledgements}	
 \input{prelim/acknowledgements}
 \cleartooddpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter*{Authors declaration}
+\phantomsection
 \addcontentsline{toc}{chapter}{Author's declaration}
+\chapter*{Author's declaration}
 \input{prelim/declaration}
 \cleartooddpage
