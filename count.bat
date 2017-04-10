@@ -1,0 +1,1 @@
+texcount 00_Thesis.tex -merge -html > countResult.html

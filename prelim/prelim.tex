@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- the title and copyright are not chapters so needs a cleardouble page after
+\pagenumbering{gobble}
+\input{prelim/copyright}
+\cleartooddpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- this is the line that puts the title page in from the pdf file
+%TODO front page
+\cleartooddpage
+
+\frontmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Abstract}	
+\addcontentsline{toc}{chapter}{Abstract}
+\input{prelim/abstract}
+\cleartooddpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents \addcontentsline{toc}{chapter}{Table of Contents}
+\cleartooddpage
+\listoffigures	 \addcontentsline{toc}{chapter}{List of Figures}
+\cleartooddpage
+\listoftables \addcontentsline{toc}{chapter}{List of Tables}
+\cleartooddpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Acknowledgements}	
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\input{prelim/acknowledgements}
+\cleartooddpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Authors declaration}
+\addcontentsline{toc}{chapter}{Author's declaration}
+\input{prelim/declaration}
+\cleartooddpage
