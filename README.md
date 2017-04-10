@@ -4,3 +4,11 @@ This is a PhD thesis template for Plymouth University, U.K. It is based on one a
 The template has been tested with Texmaker (http://www.xm1math.net/texmaker/), which is free and cross-platform. TeXcount was used for getting the word count; it is a Perl script. Installation is pretty straightforward: http://app.uio.no/ifi/texcount/.
 
 This template is offered as-is. I do not plan to maintain it, so if the Plymouth University regulations change, then this may be outdated.
+
+Basic build steps:
+1. Build the title page (run latex against prelim/titlepage.tex)
+2. Run latex against 00_thesis.tex
+3. Build the glossary (makeglossary %) against 00_thesis.tex
+4. Build the document as usual (PDFLaTeX, BibTeX, PDFLaTeX, PDFLaTeX)
+
+Whenever you modify the glossary then make sure to rebuild it as in step 3, otherwise you can continue to just build as usual using PDFLaTex and BibTeX.
