@@ -6,8 +6,9 @@ The template has been tested with Texmaker (http://www.xm1math.net/texmaker/), w
 This template is offered as-is. I do not plan to maintain it, so if the Plymouth University regulations change, then this may be outdated.
 
 Basic build steps:
-1. Run latex against 00_thesis.tex
-2. Build the glossary (makeglossary %) against 00_thesis.tex
-3. Build the document as usual (PDFLaTeX, BibTeX, PDFLaTeX, PDFLaTeX)
+1. (install glossaries package to your TeX distribution)
+2. Run latex against 00_thesis.tex
+3. Build the glossary (makeglossary %) against 00_thesis.tex
+4. Build the document as usual (PDFLaTeX, BibTeX, PDFLaTeX, PDFLaTeX)
 
 Whenever you modify the glossary then make sure to rebuild it as in step 3, otherwise you can continue to just build as usual using PDFLaTex and BibTeX.
